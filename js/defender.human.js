@@ -26,7 +26,7 @@ Game.Defender.Human.prototype.handleEvent = function(e) {
 			this._engine.rotate();
 		break;
 
-		case 40: /* bottom */
+		case 32: /* When space bar pressed, the piece will drop down. This function used to be done with the down arrow */
 			e.preventDefault();
 			this._engine.drop();
 		break;
