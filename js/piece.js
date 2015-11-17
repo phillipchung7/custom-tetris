@@ -14,11 +14,11 @@ Game.Piece = function(type) {
 	}, this);
 }
 
-Game.Piece.DEF = {
+Game.Piece.DEF = {//This series of code gives the blocks its color,availability, and shape.
 	"o": {
 		color: "#333",
 		avail: 3,
-		cells: [new XY(0, 0), new XY(-1, 0), new XY(0, -1), new XY(-1, -1)]
+		cells: [new XY(0, 0), new XY(-1, 0), new XY(0, -1), new XY(-1, -1)]//This draws the block. The 0,0 is the right-upper corner square of the block.
 	},
 	"i": {
 		color: "#6cf",
